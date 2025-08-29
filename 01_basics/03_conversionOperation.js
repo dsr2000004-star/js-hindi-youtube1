@@ -53,6 +53,40 @@ console.log(1 + "2")
 console.log("1" + 2 + 2)
 console.log(1 + 2 + "2")
 
+// console.log((3 + 4) * 5 % 3); this is not a good way to write code
+
+console.log(+true);
+console.log(+"");
+
+let gameCounter = 100
+gameCounter++;
+
+console.log(gameCounter);
+
+
+//let gc = 1000
+//let gcc = gc++
+//console.log(gc);
+//console.log(gcc);
+
+
+let gc = 1000
+let gcc = ++gc
+console.log(gc);
+console.log(gcc);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
