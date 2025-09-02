@@ -38,6 +38,17 @@ console.log(typeof bigNumber);
 
 
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitrive), Heap(Non Primitive)
+
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anothername = MyYoutubername
+console.log(anothername);
+
+
+
 
 
 
