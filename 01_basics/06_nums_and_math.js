@@ -29,17 +29,16 @@ console.log(Math.max(4, 3, 6, 8));
 console.log(Math.random());
 
 
-console.log((Math.random()*10) + 1);  // Very Important 
+console.log((Math.random() * 10) + 1);  // Very Important 
+console.log(Math.floor(Math.random() * 10) + 1);  
 
 const min = 10
 const max = 20
 
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+// console.log(Math.floor(Math.random() * (max - min + 1)) + min);  // Very Important Sir ne likha hai
 
-
-
-
+// console.log(Math.floor(Math.random() * (max - min) + 1 ) + min) Ye maine likha hai 
 
 
 
