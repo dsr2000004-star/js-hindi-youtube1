@@ -50,7 +50,7 @@ console.log(newDate.toLocaleString('default', {
 
 
 
-let a = new Date()
+let a = new Date("09-9-2025")
 console.log(a.toDateString());
 console.log(a.getDate());
 console.log(a.getFullYear());
