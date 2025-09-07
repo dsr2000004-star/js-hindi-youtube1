@@ -2,16 +2,16 @@
 
 let myDate = new Date()
 console.log(myDate);
-// console.log(myDate.toString());
-// console.log(myDate.toDateString());
-// console.log(myDate.toISOString());
-// console.log(myDate.toJSON());
-// console.log(myDate.toLocaleDateString());
-// console.log(myDate.toLocaleString());
-// console.log(myDate.toLocaleTimeString());
-// console.log(myDate.toTimeString());
-// console.log(myDate.toUTCString());
-// console.log(typeof myDate);
+console.log(myDate.toString());
+console.log(myDate.toDateString());
+console.log(myDate.toISOString());
+console.log(myDate.toJSON());
+console.log(myDate.toLocaleDateString());
+console.log(myDate.toLocaleString());
+console.log(myDate.toLocaleTimeString());
+console.log(myDate.toTimeString());
+console.log(myDate.toUTCString());
+console.log(typeof myDate);
 
 let myCratedDate = new Date(2025, 0, 6)
 console.log(myCratedDate.toDateString())
@@ -27,6 +27,8 @@ let myTimeStamp = Date.now()
 // console.log(myCratedDate.getTime());
 
 console.log(Math.floor(Date.now()/1000));
+
+
 
 let newDate = new Date()
 console.log(newDate);
@@ -45,6 +47,22 @@ console.log(newDate.toLocaleString('default', {
 }
 
 ))
+
+
+
+let a = new Date()
+console.log(a.toDateString());
+console.log(a.getDate());
+console.log(a.getFullYear());
+console.log(a.getTime());
+console.log(a.getMonth() + 1);
+console.log(a.getDay());
+
+
+
+
+
+
 
 
 
