@@ -28,14 +28,53 @@ console.log("Result:", result);
 // **********return value ka concept**********
 
 function foo(n1, n2){
-    let result1 = n1 + n2
-    console.log("Divyanshu");
-
-    return result1
+    // let result1 = n1 + n2                 /* First Method*/
+    // console.log("Divyanshu");
+    // return result1
     // console.log("Divyanshu"); (Ye print nahi hoyega kyuki ye return ke baad likha hai)
     
+    return n1 + n2
 
 }
 
-const result1 = foo(10, 20)
+const result1 = foo(10, 20)               /* Second Method */ 
 console.log("The sum of these numbers is", result1);
+
+
+function loginUserMessage(username = "Sam"){
+    if(username === undefined){
+    // console.log("Please Enter Your Username");
+
+    console.log("Please Enter Your Username");
+    return     /* ye humne isliye lagaya hai taaki ye agar is if bracket me agaya to return use karne ke baad aage ki koi statment print hi na ho */
+    
+    }
+   
+    
+    return `${username} just logged in`
+
+}
+
+// console.log(loginUserMessage("Divyanshu"));
+console.log(loginUserMessage("Divyanshu"));
+
+
+
+
+
+
+
+/* practice
+
+function nayaFunction(number1, number2){
+let y = number1 + number2
+console.log(number1 + number2);
+
+return y
+}
+
+let y = nayaFunction(100, 200)
+
+console.log("The result is", y);
+
+*/ 
