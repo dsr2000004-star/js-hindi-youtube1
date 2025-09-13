@@ -33,11 +33,11 @@ function foo(n1, n2){
     // return result1
     // console.log("Divyanshu"); (Ye print nahi hoyega kyuki ye return ke baad likha hai)
     
-    return n1 + n2
+    return n1 + n2      /* Second Method */ 
 
 }
 
-const result1 = foo(10, 20)               /* Second Method */ 
+const result1 = foo(10, 20)             
 console.log("The sum of these numbers is", result1);
 
 
@@ -78,3 +78,7 @@ let y = nayaFunction(100, 200)
 console.log("The result is", y);
 
 */ 
+
+
+
+
