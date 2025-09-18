@@ -4,7 +4,7 @@ price: 999,
 
 welcomeMessage: function (){
     console.log(`${this.username}, welcome to website`);
-console.log(this);
+console.log(this); 
     
 }
 
@@ -25,3 +25,12 @@ const chai = () => {
     
 }
 chai()
+
+const addTwo = (num1, num2) => num1 + num2
+
+console.log(addTwo(3, 11));
+
+
+const userName = () => ({username: "divyanshu"})
+console.log(userName());
+
