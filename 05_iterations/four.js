@@ -20,3 +20,28 @@ console.log(`${key} is used for ${myObject[key]}`);
    
     
 }
+
+const programming = ["js", "rb", "py", "java", "cpp"]
+
+for (const key in programming) {
+// console.log(key);
+console.log(programming[key]);
+
+
+}
+
+// console.log(programming[3]);
+
+
+
+// const map = new Map()
+// map.set('IN', "India")
+// map.set('US', "United States of America")
+// map.set('Fr', "France")
+                                  // (map pe for-in loop wala tareeka kaam nahi karega kyuki map iterable nahi hai)
+// for (const key in map) {   
+//    console.log(key);
+   
+// }
+
+
