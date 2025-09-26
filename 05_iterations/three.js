@@ -56,7 +56,7 @@ for (const [key, value] of map) {
     
 }
 
-let myObj = {
+const myObj = {
     aage: "Peeche", 
     oopar: "neeche", 
 
