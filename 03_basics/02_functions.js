@@ -41,3 +41,5 @@ return anyArray[2]
 console.log(returnSecondValue1([1, 2, 3, 400, 5000]));
 
 
+
+

@@ -68,9 +68,9 @@ if(username === "Divyanshu"){
 // console.log(username)
 
 
-// ********************** Important(Hoisting) ************************************
+// ********** Important(Hoisting)************
 
-console.log(addOne(5));
+console.log(addOne(5));  // yahan agar aap function ko exexute karne ke liye oopar bhi likhoge to wo execute ho jaayega     
 
 function addOne(num){
 return num + 1
@@ -82,7 +82,7 @@ return num + 1
 
 
 
-console.log(addTwo(5));
+console.log(addTwo(5));      // jab hum function ko ek variable me store karte hain to wo ek expression ban jaata hai aur isme console.log() oopar likhne se execution nahi hota 
 const addTwo = function(num){
     return num + 2
 }
