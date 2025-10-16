@@ -87,6 +87,9 @@ const obj1 = {
 
     meraFunct: function(){
         console.log(this);
+
+        
+        
         
       return   `kaam ki naam hai: ${this.kaam}`
      
@@ -94,6 +97,13 @@ const obj1 = {
 }
 
 console.log(obj1.meraFunct());
+obj1.kaam = "kuchnahi"
+console.log(obj1.meraFunct());
 
 
 
+
+
+const myFun = (num1, num2) => { return num1*num2}
+
+console.log(myFun(2, 6));

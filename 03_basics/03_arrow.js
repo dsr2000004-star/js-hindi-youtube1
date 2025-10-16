@@ -20,7 +20,7 @@ console.log(this);
 
 const chai = () => {
     let username = "Divyanshu"
-    // console.log(this.username);
+    // console.log(this.username);   // ye this.username wala concept sirf tab hi kaam kar raha hai jab hum objext ke andar function likhte hain aur aise normal function let karne me this.username method kaam nahi karega  
     console.log(this);
     
 }
