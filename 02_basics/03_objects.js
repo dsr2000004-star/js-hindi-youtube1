@@ -1,8 +1,9 @@
-// singleton
-
-
+// singleton (it is a type of object whhich is made by contructor method)
 // objects constructor
 Object.create
+
+
+
 
 //objects literals 
 
@@ -30,8 +31,8 @@ const JsUser = {
 // console.log(JsUser[mySym]);
 
 
-JsUser.email = "divynashu@chatgpt.com"
-// Object.freeze(JsUser)
+JsUser.email = "divyanshu@chatgpt.com"
+// Object.freeze(JsUser) (ye lagane ke baad object me koi changes kaam nahi karenge )
 JsUser.email = "divyanshu@microsoft.com"
 // console.log(JsUser);
 
