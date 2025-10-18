@@ -33,13 +33,15 @@ const obj4 = {5: "a", 6: "b"}
 
 // const obj3 = {obj1, obj2}
 
+// const obj3 = Object.assign(obj1, obj2)
+
 // const obj3 = Object.assign(obj1, obj2, obj4)
 // console.log(obj3);
 // console.log(obj1);
 // console.log(obj2);
 // console.log(obj4);
 
-
+// ***************** jab aap object ko jodte waqt assign property lagate ho to ye {} lagana bhi important hai kyuki ye na lagane se obj1 hi target object ban jaayega aur obj3 , obj1 same value produce karenge *************************************************
 
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 // console.log(obj3);

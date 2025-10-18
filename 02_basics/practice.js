@@ -54,14 +54,37 @@
 const maiHoon = {
     naam: "divyanshu", 
     kaam: "coding", 
-    greeting: function () {
+}
+
+maiHoon.greeting = function () {
         console.log("meraaaaa");
         
     }
-}
+
+    maiHoon.greeting()
+
+   const obj1 = {1: "a", 2: "b"}
+const obj2 = {3: "a", 4: "b"}
+
+// const obj3 = Object.assign(obj1, obj2)
+const obj3 = Object.assign( {},  obj1, obj2)
+console.log(obj3);
+
+    const meraObj = {"a": 1, "b": 22}
+    console.log(meraObj);
+    
+    const teraObj = {"c": 3, "b": 12}
+
+    const humObj = Object.assign({}, meraObj, teraObj)
+    console.log(humObj);
+    console.log(meraObj);
+       
+    const {b} = meraObj
+    console.log(b);
+    
 
 
-console.log(maiHoon.greeting())
+
  
 
  
