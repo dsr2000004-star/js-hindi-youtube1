@@ -81,7 +81,11 @@ console.log(obj3);
        
     const {b} = meraObj
     console.log(b);
+
+
+
     
+ 
 
 
 

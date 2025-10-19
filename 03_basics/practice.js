@@ -1,35 +1,35 @@
-// 
-function sayAdd(num1, num2) {
-    console.log(num1 + num2);
+// // 
+// function sayAdd(num1, num2) {
+//     console.log(num1 + num2);
     
-}
+// }
 
-sayAdd(3, 5)
+// sayAdd(3, 5)
 
-for (let i = 0; i <= 10; i++) {
-    console.log(i);
+// for (let i = 0; i <= 10; i++) {
+//     console.log(i);
 
-    for (let j = 0; j <= 10; j++) {
-        // console.log(j);
+//     for (let j = 0; j <= 10; j++) {
+//         // console.log(j);
         
-       console.log(i + '+' + j + "=" + (i+j) );
+//        console.log(i + '+' + j + "=" + (i+j) );
        
         
-    }
+//     }
     
     
-}
+// }
 
 
-function meraNaam(a, b) {
+// function meraNaam(a, b) {
 
     
-    console.log("d");
+//     console.log("d");
     
-    return  a + b ;
+//     return  a + b ;
      
     
-}
+// }
 
 // const result = meraNaam(3, 10)
 
@@ -54,25 +54,25 @@ function meraNaam(a, b) {
 // meraFunction(obj1)
 
 
-function one (){
-    const username = "Divyanshu"
+// function one (){
+//     const username = "Divyanshu"
 
 
-    function two() {
-        const website = "Youtube"
-        console.log(username);
+//     function two() {
+//         const website = "Youtube"
+//         console.log(username);
         
-    }
+//     }
 
-    // console.log(website);
+//     // console.log(website);
 
-    // two()
+//     // two()
     
-    console.log(username);
+//     console.log(username);
     
-}
+// }
 
-one()
+// one()
 
 
 // myZepto(5, 8)
@@ -81,29 +81,43 @@ one()
 // }
 
 
-const obj1 = {
-    kaam: "freeLancing",
-    dhan: 20000,
+// const obj1 = {
+//     kaam: "freeLancing",
+//     dhan: 20000,
 
-    meraFunct: function(){
-        console.log(this);
+//     meraFunct: function(){
+//         console.log(this);
 
         
         
         
-      return   `kaam ki naam hai: ${this.kaam}`
+//       return   `kaam ki naam hai: ${this.kaam}`
      
-    }
-}
+//     }
+// }
 
-console.log(obj1.meraFunct());
-obj1.kaam = "kuchnahi"
-console.log(obj1.meraFunct());
-
-
+// console.log(obj1.meraFunct());
+// obj1.kaam = "kuchnahi"
+// console.log(obj1.meraFunct());
 
 
 
-const myFun = (num1, num2) => { return num1*num2}
 
-console.log(myFun(2, 6));
+
+// const myFun = (num1, num2) => { return num1*num2}
+
+// console.log(myFun(2, 6));
+
+
+// let meraObject = {
+//     naam: "sanjaydutt", 
+//     Kaam: "acting"
+
+// }
+
+
+// meraObject.fathername = function(){
+//     console.log("SunilDutt");
+    
+// }
+meraObject.fathername()

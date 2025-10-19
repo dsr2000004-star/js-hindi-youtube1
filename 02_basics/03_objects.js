@@ -26,9 +26,9 @@ const JsUser = {
 // Two methods to see objects key and elements 
 // console.log(JsUser.email);
 // console.log(JsUser["full name"]);
-// console.log(JsUser.mySym);
-// console.log(typeof JsUser.mySym);
-// console.log(JsUser[mySym]);
+// console.log(JsUser.mySym); (is tareeke see nahi karna)
+// console.log(typeof JsUser.mySym); 
+// console.log(JsUser[mySym]); (is tareeke se karna hai)
 
 
 JsUser.email = "divyanshu@chatgpt.com"

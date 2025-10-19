@@ -105,6 +105,13 @@ const {courseInstructor: instructor} = course
 console.log(instructor);
 
 
+// (method which is below is used in react and it function is same as line number 100, 101)
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "Hitesh")
+
 
 // this is structure of JSON
 // {
