@@ -1,9 +1,9 @@
-let score = "divynashu"
+let score = "33abc"
 
-// const {score} = req.body sometimes it is not defined that what is actual dataType of variable
+// const {score} = req.body (sometimes it is not defined that what is actual dataType of variable)
 
 console.log(typeof score);
-console.log(typeof(score));
+console.log(typeof(score)); // libe 5 and 6 both are same in working
 
 let ValueInNumber = Number(score)
 console.log(typeof ValueInNumber);
@@ -58,6 +58,12 @@ console.log(1 + 2 + "2")
 console.log(+true);
 console.log(+"");
 
+
+/*
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2  (jyada use nahi karte is method ko)
+*/
+
 let gameCounter = 100
 gameCounter++;
 
@@ -92,9 +98,9 @@ console.log(null > 0);
 console.log(null == 0);
 console.log(null >= 0);
 
-console.log(undefined == 0);
-console.log(undefined > 0);
-console.log(undefined < 0);
+console.log(undefined == 0);   // false 
+console.log(undefined > 0); // false 
+console.log(undefined < 0); // false 
 
 // ===
 
