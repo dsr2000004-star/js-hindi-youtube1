@@ -41,6 +41,8 @@ let b = "700"
 console.log(b.__proto__);
 
 
+
+
 let a = "divyanshutuku"
 console.log(a.slice(-6, 11)); // in this type -1 refers to last alphapet of word
 

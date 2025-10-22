@@ -6,7 +6,11 @@ let myYoutubename = "hiteshdotcom"
 console.log(myYoutubename);
 
 let anothername = myYoutubename
+anothername = "chaiaurcode"
 console.log(anothername);
+
+
+
 let userOne = {
     email: "dsr2000004@gmail.com",
     upi: "user@ybl",
