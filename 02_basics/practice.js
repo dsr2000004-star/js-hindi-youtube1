@@ -82,7 +82,9 @@ console.log(obj3);
     const {b} = meraObj
     console.log(b);
 
-
+  const a = 12345678910111213141516n
+  console.log(typeof a);
+  
 
     
  

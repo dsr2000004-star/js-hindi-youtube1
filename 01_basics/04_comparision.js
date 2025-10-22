@@ -26,7 +26,7 @@ console.log(id === anotherId);
 const heros = ["shaktiman", "naagraj", "doga"];
 
 let myObj = {
-    name: Divyanshu, 
+    name: "Divyanshu", 
     age: 21,
 }
 // const myfunction = function(){
@@ -42,10 +42,6 @@ console.log(typeof bigNumber);
 
 // Stack(Primitrive), Heap(Non Primitive)
 
-let myYoutubename = "hiteshchoudharydotcom"
-
-let anothername = MyYoutubername
-console.log(anothername);
 
 
 

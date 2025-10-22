@@ -1,5 +1,5 @@
 
-// Stack (Primtive), Heap (Non-Primitive)
+// Stack (Primtive data type me sab me stack memory use hoti hai), Heap (Non-Primitive)
 
 
 let myYoutubename = "hiteshdotcom"
