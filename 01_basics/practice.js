@@ -1,6 +1,6 @@
 // 
 let myName = new String('Divyanshu')
-console.log(typeof myName);
+console.log(typeof myName); // object answer hi aata hai
 
 
 const myClass = "Thirddddddd"
@@ -17,6 +17,12 @@ console.log(melaa.split('-'));
 
 let meraCity = "Delhi"
 console.log(meraCity.__proto__);
+
+
+
+
+
+
 
 
 
