@@ -1,3 +1,7 @@
+
+// Project - 1
+
+
 const buttons = document.querySelectorAll('.button');
 
 const body = document.querySelector('body');
@@ -13,3 +17,21 @@ buttons.forEach((button) => {
 
             })
             });
+
+
+            const form = document.querySelector('form')
+
+
+
+// Project - 2
+
+form.addEventListener( 'submit', function(e){
+e.preventDefault()
+
+const height = parseInt(document.querySelector('#height'))
+
+const weight = parseInt(document.querySelector('#weight'))
+
+const results = document.querySelector('#results')
+
+} )
