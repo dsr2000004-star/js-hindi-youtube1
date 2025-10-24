@@ -1,7 +1,5 @@
-let month = 4
-switch (month) {
-  case 4:
-    console.log("April");
+switch (key) {
+  case value:
     
     break;
 
