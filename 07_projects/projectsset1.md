@@ -102,3 +102,21 @@ form.addEventListener( 'submit', function(e){
 
 
 ``` 
+
+
+## project 3 solution 
+
+``` javascript 
+
+const clock = document.getElementById('clock')
+ // document.querySelector('#clock') 
+
+
+
+ setInterval( function(){
+  const myDate = new Date()
+   clock.innerHTML = myDate.toLocaleTimeString()
+ }, 1000 )
+
+
+``` 

@@ -79,3 +79,22 @@ buttons.forEach((button) => {
 //   } )
 
 // */
+
+
+
+// Project - 3
+
+
+/* 
+
+const clock = document.getElementById('clock')
+ // document.querySelector('#clock') 
+
+
+
+ setInterval( function(){
+  const myDate = new Date()
+   clock.innerHTML = myDate.toLocaleTimeString()
+ }, 1000 )
+
+ */
