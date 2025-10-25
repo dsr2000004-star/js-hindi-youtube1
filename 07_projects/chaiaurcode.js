@@ -2,6 +2,8 @@
 // Project - 1
 
 
+
+/*
 const buttons = document.querySelectorAll('.button');
 
 const body = document.querySelector('body');
@@ -18,32 +20,62 @@ buttons.forEach((button) => {
             })
             });
 
+            */
 
-            const form = document.querySelector('form')
 
+
+ 
 
 
 // Project - 2
 
-document.querySelector('form')
+// /*
 
-// this use case will give you empty value 
-// const height = parseInt(document.querySelector('#height'))
+// const form = document.querySelector('form')
+
+// // this use case will give you empty value 
+// // const height = parseInt(document.querySelector('#height'))
 
 
-form.addEventListener( 'submit', function(e){
-  e.preventDefault()
+// form.addEventListener( 'submit', function(e){
+//   e.preventDefault()
   
-  const height = parseInt(document.querySelector('#height').value)
+//   const height = parseInt(document.querySelector('#height').value)
   
-  const weight = parseInt(document.querySelector('#weight').value)
+//   const weight = parseInt(document.querySelector('#weight').value)
   
-  const results = document.querySelector('#results')
+//   const results = document.querySelector('#results')
 
-  if(height === "" || height < 0 || isNaN(height)){
-    results.innerHTML = "Please enter a valid height"
-  }
+//   if(height === "" || height < 0 || isNaN(height)){
+//     results.innerHTML = "Please enter a valid height"
+//   }
 
-  results.innerHTML = `${height}` //  is project me agar number 888aa is form me likha hai to vo parint ki wajah se 888 ho jaayega
+//   // results.innerHTML = `${height}` 
+//   //  is project me agar number 888aa is form me likha hai to vo parint ki wajah se 888 ho jaayega
+
+//   else if (weight === "" || weight < 0 || isNaN(weight)){
+//     results.innerHTML = "Please enter a valid weight"
+//   }
+//   else{
+//     const bmi = weight/((height * height)/10000).toFixed(2)
+//     // to show the result you have to follow below step
+//     results.innerHTML = `<span>${bmi}</span>` 
+
+//     if(bmi < 18.6){
+//     results.innerHTML = `<span>${bmi}</span> (Underweight)`
+//     }
+
+//     else if (bmi >= 18.6 && bmi <= 24.9){
+//       results.innerHTML = `<span>${bmi}</span> (Normal Range)`
+//     }
+
+//     else{
+//       results.innerHTML = `<span>${bmi}</span> (Overweight)`
+//     }
+// }
+
+
   
-  } )
+//   } )
+
+// */
