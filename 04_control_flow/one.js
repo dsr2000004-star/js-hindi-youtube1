@@ -16,6 +16,8 @@ const temperature = 41;
 
 if (temperature === 41) {
     console.log("less than 50");
+    // temperature ko humne global scope me let kara hai isliye hum use kisi bhi fn ke andar print console.log( karwa sakte hain)
+    
 
 }
 // console.log("temperature is greater than 50");
