@@ -98,3 +98,54 @@ const clock = document.getElementById('clock')
  }, 1000 )
 
  */
+
+ // project-4
+
+ const randomNumber = parseInt(Math.random()*100 + 1)
+const submit = document.querySelector('#subt')
+const userInput = document.querySelector("#guessField")
+const guessSlot = document.querySelector('.guesses')
+const remaining = document.querySelector('.lastResult')
+const lowOrHi = document.querySelector('.lowOrHi')
+
+const p = document.createElement('p')
+
+let prevGuesses = []
+let numGuess = 1
+
+let playGame = true
+
+/* ye fn check karega ki humara guess random value ke beech me hai ya nahi aur value hai ya nahi */
+
+function validateGuess(guess) {
+// 
+}
+
+
+/* ye fn check karega ki humara guess random value ke equal hai, ya low hai, ya high hai, aur fir display message ki help se user ko inform karega*/
+
+function checkGuess(guess){
+// 
+}
+
+
+/*ye fn values ko clean karega, array ko update karega, guesses remaining ko update karega*/
+
+function displayGuess(guess){
+// 
+}
+
+
+/* ye fn lowOrHi ke andar ek message pass karega aur print karega*/
+
+function displayMessage(){
+// 
+}
+
+function newGame (){
+// 
+}
+
+function endGame (){
+// 
+}
