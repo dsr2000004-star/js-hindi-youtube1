@@ -115,6 +115,16 @@ let numGuess = 1
 
 let playGame = true
 
+if(playGame){
+submit.addEventListener('click', function(e){
+e.preventDefault()
+const guess = parseInt(userInput.value)
+validateGuess(guess)
+
+console.log(guess)
+})
+}
+
 /* ye fn check karega ki humara guess random value ke beech me hai ya nahi aur value hai ya nahi */
 
 function validateGuess(guess) {
