@@ -24,7 +24,7 @@ buttons.forEach((button) => {
 
 
 
- 
+
 
 
 // Project - 2
@@ -39,11 +39,11 @@ buttons.forEach((button) => {
 
 // form.addEventListener( 'submit', function(e){
 //   e.preventDefault()
-  
+
 //   const height = parseInt(document.querySelector('#height').value)
-  
+
 //   const weight = parseInt(document.querySelector('#weight').value)
-  
+
 //   const results = document.querySelector('#results')
 
 //   if(height === "" || height < 0 || isNaN(height)){
@@ -75,7 +75,7 @@ buttons.forEach((button) => {
 // }
 
 
-  
+
 //   } )
 
 // */
@@ -99,14 +99,15 @@ const clock = document.getElementById('clock')
 
  */
 
- // project-4
+// project-4
 
- const randomNumber = parseInt(Math.random()*100 + 1)
+let randomNumber = parseInt(Math.random()*100 + 1)
 const submit = document.querySelector('#subt')
 const userInput = document.querySelector("#guessField")
 const guessSlot = document.querySelector('.guesses')
 const remaining = document.querySelector('.lastResult')
 const lowOrHi = document.querySelector('.lowOrHi')
+let startOver = document.querySelector('.resultParas')
 
 const p = document.createElement('p')
 
@@ -141,7 +142,7 @@ alert(`Please enter a number less than 100`)
 
 else{
 prevGuesses.push(guess)
-if(numGuess >= 11){
+if(numGuess === 11){
 displayGuess(guess)
 displayMessage(`Game over, Random number was ${randomNumber}`)
 endGame()
@@ -178,7 +179,7 @@ displayMessage(`You guessed too low`)
 
 function displayGuess(guess){
 userInput.value = ''
-guessSlot.innerHTML += `${guess}`
+guessSlot.innerHTML += `${guess} ,`
 numGuess++;
 remaining.innerHTML = `${11 - numGuess}`
 }
@@ -187,13 +188,32 @@ remaining.innerHTML = `${11 - numGuess}`
 /* ye fn lowOrHi ke andar ek message pass karega aur print karega*/
 
 function displayMessage(message){
-// 
-}
-
-function newGame (){
-// 
+lowOrHi.innerHTML = `<h2>${message}</h2>`
 }
 
 function endGame (){
-// 
+userInput.value = ''; 
+userInput.setAttribute('disabled', ''); 
+p.classList.add('button'); 
+p.innerHTML = `<h2 id="newGame" >Start new Game</h2>`;
+startOver.appendChild(p);
+playGame = false; 
+newGame();
+}
+
+function newGame (){
+const newGameButton = document.querySelector('#newGame'); 
+newGameButton.addEventListener('click', function(e){
+let randomNumber = parseInt(Math.random()*100 + 1)
+let prevGuesses = []
+let numGuess = 1
+guessSlot.innerHTML = ''
+remaining.innerHTML = `${11 - numGuess}`
+userInput.removeAttribute('disabled')
+startOver.removeChild(p) 
+playGame = true
+
+
+})
+
 }
