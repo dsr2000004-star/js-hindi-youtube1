@@ -218,7 +218,7 @@ lowOrHi.innerHTML = `<h2>${message}</h2>`
 
 function endGame (){
 userInput.value = ''; 
-userInput.setAttribute('disabled', ''); 
+userInput.setAttribute('disabled', ''); ye aise isliye likha hai kyuki ise setAttribute property ko key value pair me likhte hain
 p.classList.add('button'); 
 p.innerHTML = `<h2 id="newGame" >Start new Game</h2>`;
 startOver.appendChild(p);
