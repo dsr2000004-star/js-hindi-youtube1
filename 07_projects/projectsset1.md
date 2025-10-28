@@ -18,7 +18,7 @@ buttons.forEach((button) => {
   console.log(button);
   button.addEventListener('click', function(e){
    console.log(e)
-   console.log(e.target)
+   console.log(e.target) // e.target eventlistener ke dwara us har ek block ko represent kar raha hai 
  let a = e.target.id
 
  switch (a) {
@@ -55,7 +55,7 @@ buttons.forEach((button) => {
 
 const form = document.querySelector('form')
 
-// this use case will give you empty value 
+// neeche di gayi value ko event listener ke andar hi likhna hai kyuki hume ye values particular us event ke doraan hi chahiye
 // const height = parseInt(document.querySelector('#height'))
 
 
