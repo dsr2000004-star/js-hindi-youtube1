@@ -1,10 +1,10 @@
-const randomNumber = parseInt(Math.random()*100 + 1)
+let randomNumber = parseInt(Math.random()*100 + 1)
 const userInput = document.getElementById('guessField')
 const submit = document.getElementById('subt')
 const guessDabba = document.getElementsByClassName('guesses')
 const remainingGuess = document.getElementsByClassName('lastResult')
 const lowOrHi = document.getElementsByClassName('lowOrHi')
-const resultParas = document.getElementsByClassName('resultParas')
+const resultParas = document.querySelector('.resultParas')
 const p = document.createElement('p')
 let playGame = true 
 let numGuess = 1
@@ -78,11 +78,33 @@ lowOrHi.innerHTML = `<h2>${message}</h2>`
 
 }
 function endGame(){
+  userInput.value = ""
 userInput.setAttribute('disabled', '')
+p.classList.add('button')
+p.innerHTML = `<h2 id="newGame" >Start new game</h2>`
+resultParas.appendChild(p)
+playGame = false
+newGame()
 
 }
 function newGame(){
+  let randomNumber = parseInt(Math.random()*100 + 1)
+  userInput.value = ""
+const newGameButton = document.querySelector('#newGame')
+newGameButton.addEventListener('click', function(e){
+  e.preventDefault()
+  let numGuess = 1
+let prevGuess = []
+let remai
+guessDabba.innerHTML = ""
+remainingGuess.innerHTML = `${10 - numGuess}`
+userInput.removeAttribute('disabled', '')
+resultParas.removeChild(p)
+
+playGame = true
+
+})
+
 
 }
-
 
