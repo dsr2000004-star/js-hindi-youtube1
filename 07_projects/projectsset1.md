@@ -245,3 +245,100 @@ playGame = true
 
 
 ``` 
+
+## project 5 solution 
+
+``` javascript 
+console.log('Project 5');
+console.log('Project 5');
+
+const insert = document.querySelector('#insert')
+
+window.addEventListener('keydown', function(e){
+
+
+
+
+ 
+  insert.innerHTML = `
+  <div class ='color'>
+
+  <table>
+  <tr>
+    <th>Key</th>
+    <th>Keycode</th>
+    <th>Code</th>
+  </tr>
+  <tr>
+    <td>${e.key=== " " ? "Space" : e.key}</td>
+
+  
+
+    
+    <td>${e.keyCode}</td>
+    <td>${e.code}</td>
+  </tr>
+  
+</table>
+  
+  
+  </div>
+
+
+  `
+
+
+
+
+
+
+})
+
+```
+
+## project 6 solution 
+``` javascript 
+// generate a random color
+
+const randomColor = function(){
+  const hex = '0123456789ABCDEF'
+  let color = '#'
+  for (let i = 0; i < 6; i++) {
+    color += hex[Math.floor(Math.random()*16)] // fir humne ye step kara hai 
+    
+}
+return color
+}
+// randomColor()
+
+console.log(Math.floor(Math.random()*16)) // pehle humne ye step kara hai 
+
+
+let a;
+const startChangingColor = function(){
+ if(!a){
+  a = setInterval(changingColor, 1000)
+ }
+
+function changingColor(){
+   document.body.style.backgroundColor = randomColor()
+}
+
+}
+
+
+let stopChangingColor = function(){
+  clearInterval(a)
+  a = null; // (ye humne lagaya hai kyuki jab humara a ka kaam hogaya to hum ab uski value ko derefrence kar rahe hain taaki thodi si memory clear ho jaaye)
+
+}
+
+
+
+document.querySelector('#start').addEventListener( 'click', startChangingColor)
+document.querySelector('#stop').addEventListener( 'click', stopChangingColor)
+
+
+```
+
+
