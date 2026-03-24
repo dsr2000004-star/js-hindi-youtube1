@@ -89,12 +89,28 @@
 
 // userOne.greeting()
 
-const myName = () => (
-     {
-        naam: "Divyanshu"
-    }
-)
-console.log(myName());
+
+
+// const myName = () => (
+//      {
+//         naam: "Divyanshu"
+//     }
+// )
+// console.log(myName());
+
+// this Age function is call back function
+function myFn (naam, age){
+console.log(naam);
+age()
+
+}
+
+function Age(){
+    console.log("Age hai ");
+    
+}
+
+myFn("Divyanshu", Age)
 
 
 
