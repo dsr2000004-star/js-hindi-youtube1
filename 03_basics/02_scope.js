@@ -89,4 +89,16 @@ const addTwo = function(num){
 // console.log(addTwo(5));
 
 
+// Function declarations are fully hoisted (including their definitions), while function expressions only hoist the variable declaration—not the function initialization.
+
+// 
+// var sayHello; // hoisted (declared)
+
+// sayHello(); // ❌ TypeError: sayHello is not a function
+
+// sayHello = function () {
+//   console.log("Hello");
+// };
+
+
 
