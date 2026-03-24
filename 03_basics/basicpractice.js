@@ -99,6 +99,8 @@
 // console.log(myName());
 
 // this Age function is call back function
+
+/*
 function myFn (naam, age){
 console.log(naam);
 age()
@@ -111,7 +113,24 @@ function Age(){
 }
 
 myFn("Divyanshu", Age)
+*/
 
+/*
+this a example of apply method
+
+function myFn (city, nation){
+console.log(`Hello, I am ${this.naam}, ${this.age}  years old, living in ${city}, ${nation} `);
+
+}
+
+const myInfo = {
+    naam: "Divyanshu", 
+    age: 22, 
+}
+
+myFn.apply( myInfo , ["Delhi", "India"])
+
+*/
 
 
 
