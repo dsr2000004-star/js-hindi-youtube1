@@ -132,5 +132,28 @@ myFn.apply( myInfo , ["Delhi", "India"])
 
 */
 
+// High Order Function
+function greet(name) {
+    return "Hello " + name;
+}
+
+function processUserInput(callback) {
+    const name = "Divyanshu";
+    console.log(callback(name));
+}
+
+processUserInput(greet);
+
+// processUserInput is a High Order Function because it accepots another function (greet) as its parameter
+
+// greet is call back function because it is called in another function....
+
+
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+}
+
+
 
 
