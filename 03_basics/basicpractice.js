@@ -149,11 +149,27 @@ processUserInput(greet);
 // greet is call back function because it is called in another function....
 
 
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
+
+arr = [1, 40, 80]
+for (const element of arr) {
+    console.log(element);
     
 }
 
+
+const myObject = {
+    js: 'javascript', 
+    cpp: "C++", 
+    rb: 'ruby', 
+    swift: "swift by apple"
+}
+
+console.log(myObject["js"]); 
+
+/*
+don't use it like this = console.log(myObject[js]);
+use like this  = console.log(myObject["js"]); 
+*/
 
 
 

@@ -1,6 +1,6 @@
 const myObject = {
     js: 'javascript', 
-    cpp: "'C++", 
+    cpp: "C++", 
     rb: 'ruby', 
     swift: "swift by apple"
 }
@@ -38,11 +38,13 @@ console.log(programming[key]);
 // map.set('IN', "India")
 // map.set('US', "United States of America")
 // map.set('Fr', "France")
-                                  // (map pe for-in loop wala tareeka kaam nahi karega kyuki map iterable nahi hai fo in loop me)
+                                  // (map pe for-in loop wala tareeka kaam nahi karega kyuki map iterable nahi hai for in loop me)
 // for (const key in map) {   
 //    console.log(key);
    
 // }
+
+
 
 
 
