@@ -107,11 +107,15 @@ console.log(instructor);
 
 
 // (method which is below is used in react and it function is same as line number 100, 101)
-// const navbar = ({company}) => {
+const navbar = ({company}) => {
+console.log(company);
 
-// }
+}
 
-// navbar(company = "Hitesh")
+navbar({company: "Div"})
+
+
+
 
 
 // this is structure of JSON
@@ -121,11 +125,11 @@ console.log(instructor);
 //     "price": "free"
 // }
 
-[
-    {},
-    {},
-    {}
-]
+// [
+//     {},
+//     {},
+//     {}
+// ]
 
 
 // {
@@ -216,6 +220,11 @@ What it does:
 Copies everything recursively
 No shared references
 Nested objects are fully independent
+
+🔹 “Copies everything recursively” means:
+
+👉 It doesn’t just copy the outer object
+👉 It goes level by level inside the object, copying every nested value
 
 ✅ Changing obj2 will NOT affect obj1
 
