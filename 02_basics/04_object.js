@@ -196,7 +196,56 @@ console.log(instructor);
 // }
 
 
+/*
+🔹 1. Deep Copy Syntax
+
+const obj1 = {
+  name: "Divyanshu",
+  address: {
+    city: "Delhi"
+  }
+};
+
+const obj2 = structuredClone(obj1); // deep copy
+
+obj2.address.city = "Mumbai";
+
+console.log(obj1.address.city); // ✅ Delhi (unchanged)
+
+What it does:
+Copies everything recursively
+No shared references
+Nested objects are fully independent
+
+✅ Changing obj2 will NOT affect obj1
+
+*/
+
+/*
+
+2. Shallow Copy Syntax
 
 
+const obj1 = {
+  name: "Divyanshu",
+  address: {
+    city: "Delhi"
+  }
+};
+
+const obj2 = { ...obj1 }; // shallow copy
+
+obj2.address.city = "Mumbai";
+
+console.log(obj1.address.city); // ❗ Mumbai (changed!)
+
+👉 This creates a shallow copy
+
+What it does:
+Copies only top-level properties
+Nested objects are still shared (reference copy)
+
+
+*/
 
 
