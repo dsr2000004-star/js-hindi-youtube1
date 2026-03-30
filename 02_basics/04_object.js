@@ -24,7 +24,8 @@ console.log(regularUser.fullname.userfullname.firstname);
 
 
 
-// console.log(regularUser.fullname?.userfullname.firstname);  to check whether fullname key exists or not. It will used in further projects. 
+console.log(regularUser.fullname?.userfullname.firstname);  
+// to check whether fullname key exists or not. It will used in further projects (yaha if else ka concept lagana padta hai) . 
 
 
 const obj1 = {1: "a", 2: "b"}
@@ -52,8 +53,8 @@ const obj4 = {5: "a", 6: "b"}
 
 
 
-// const obj3 = {...obj1, ...obj2, ...obj4}
-// console.log(obj3);
+const obj3 = {...obj1, ...obj2, ...obj4}
+console.log(obj3);
 
 const users =  [
     {
@@ -97,8 +98,8 @@ const course = {
 
 // console.log(course.courseInstructor);       *1st method
 
-// const {courseInstructor} = course           *2nd method
-// console.log(courseInstructor);  
+const {courseInstructor} = course           
+console.log(courseInstructor);  
 
 
 const {courseInstructor: instructor} = course
