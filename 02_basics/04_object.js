@@ -232,7 +232,7 @@ Nested objects are fully independent
 
 /*
 
-2. Shallow Copy Syntax
+🔹 2. Shallow Copy Syntax
 
 
 const obj1 = {
