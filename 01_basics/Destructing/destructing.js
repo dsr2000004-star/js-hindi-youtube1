@@ -79,6 +79,8 @@ sum(1, 2, 3); // 6
 
 */
 
+// Template Literal
+
 
 const text = `This is line 1
 This is line 2
