@@ -47,6 +47,15 @@ function addData() {
 ❌ GC cannot remove it because it is still referenced
 
 
+If interviewer asks:
+
+Why GC is not cleaning memory here?
+
+You can say:
+
+“Because the large arrays are still referenced inside arr. Garbage collection in JavaScript works on reachability. Since arr holds references, those objects are not eligible for collection. To fix it, we must remove references by limiting array size, clearing unused data, or avoiding unnecessary storage.”
+
+
 
 
 
